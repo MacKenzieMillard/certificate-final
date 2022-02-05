@@ -1,0 +1,91 @@
+.home {
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+
+  .hero {
+    height: 500px;
+    background-image: url("./images/groceries.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+      font-size: 50px;
+      font-family: marshmallow;
+    }
+
+    h1 {
+      font-size: 80px;
+      font-family: marshmallow;
+    }
+  }
+
+  .listForm {
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+    margin-bottom: 10px;
+
+    div {
+      width: 20%;
+
+      h4 {
+        font-family: marshmallow;
+        font-size: 20px;
+      }
+
+      input {
+        height: 20px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        border-radius: 20px;
+      }
+
+      .createBtn {
+        font-family: marshmallow;
+        font-weight: bold;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .home {
+    width: 530px;
+
+    .hero {
+      h1 {
+        font-size: 60px;
+        padding-top: 80px;
+      }
+    }
+
+    .listForm {
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      div {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .home {
+    width: 300px;
+
+    .hero {
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,251 @@
+.navigation {
+  width: 75%;
+  height: 45px;
+  background-color: cadetblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.navigation .links {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navigation .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navigation .searchBar {
+  width: 30%;
+  height: 20px;
+  padding-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navigation .searchBar .searchIcon {
+  color: black;
+}
+.navigation .searchBar input {
+  width: 70px;
+  height: 18px;
+  border: none;
+  color: gray;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 510px) {
+  nav {
+    width: 510px;
+    height: 60px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav .links {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav .searchBar {
+    margin-left: 70px;
+  }
+  nav .searchBar input {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 300px) {
+  nav {
+    width: 310px;
+    height: 60px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav .links {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav .searchBar {
+    margin-left: 0px;
+  }
+  nav .searchBar input {
+    width: 70px;
+  }
+}
+.home {
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.home .hero {
+  height: 500px;
+  background-image: url("./images/groceries.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home .hero h2 {
+  font-size: 50px;
+  font-family: marshmallow;
+}
+.home .hero h1 {
+  font-size: 80px;
+  font-family: marshmallow;
+}
+.home .listForm {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: cadetblue;
+  margin-bottom: 10px;
+}
+.home .listForm div {
+  width: 20%;
+}
+.home .listForm div h4 {
+  font-family: marshmallow;
+  font-size: 20px;
+}
+.home .listForm div input {
+  height: 20px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+.home .listForm div .createBtn {
+  font-family: marshmallow;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 530px) {
+  .home {
+    width: 530px;
+  }
+  .home .hero h1 {
+    font-size: 60px;
+    padding-top: 80px;
+  }
+  .home .listForm {
+    height: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 300px) {
+  .home {
+    width: 300px;
+  }
+  .home .hero h1 {
+    font-size: 40px;
+  }
+}
+footer {
+  width: 75%;
+  border-top: solid 1px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 12.5%;
+  position: fixed;
+  bottom: 0px;
+}
+footer p {
+  font-size: 12px;
+}
+footer .footerLinks {
+  width: 45%;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footerLinks a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 510px) {
+  footer {
+    width: 510p x;
+  }
+}
+@media screen and (max-width: 300px) {
+  footer {
+    width: 300px;
+  }
+}
