@@ -1,0 +1,19 @@
+div {
+  .complete {
+    color: green;
+  }
+
+  .incomplete {
+    color: red;
+  }
+
+  .button {
+    font-family: marshmallow;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+
+  .hide-button {
+    display: none;
+  }
+}

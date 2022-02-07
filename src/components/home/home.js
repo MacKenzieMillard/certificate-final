@@ -7,6 +7,7 @@ import { Button } from "react-bootstrap";
 
 import Form from "../form/form";
 import ToDo from "../toDo/toDo";
+import ToDoList from "../toDoList/toDoList";
 
 function Home() {
     
@@ -23,6 +24,8 @@ function Home() {
             </div>
             <div className="listForm">
                 <Form/>
+                {/* <ToDoList/> */}
+                {/* this is commented out because when it's not the webpage just does not show up. it's just a blank white page. i don't know why. */}
             </div>
         </div>
     );

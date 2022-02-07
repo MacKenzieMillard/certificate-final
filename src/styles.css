@@ -200,10 +200,25 @@
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  .listForm div .createBtn {
+  .listForm .itemDiv .createBtn {
     margin-bottom: 40px;
   }
 }
+div .complete {
+  color: green;
+}
+div .incomplete {
+  color: red;
+}
+div .button {
+  font-family: marshmallow;
+  font-weight: bold;
+  border-radius: 20px;
+}
+div .hide-button {
+  display: none;
+}
+
 footer {
   width: 75%;
   border-top: solid 1px black;
