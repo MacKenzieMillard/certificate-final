@@ -20,38 +20,6 @@
       font-family: marshmallow;
     }
   }
-
-  .listForm {
-    height: 350px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: cadetblue;
-    margin-bottom: 10px;
-
-    div {
-      width: 20%;
-
-      h4 {
-        font-family: marshmallow;
-        font-size: 20px;
-      }
-
-      input {
-        height: 20px;
-        padding-left: 15px;
-        margin-bottom: 15px;
-        border-radius: 20px;
-      }
-
-      .createBtn {
-        font-family: marshmallow;
-        font-weight: bold;
-        border-radius: 20px;
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 530px) {
@@ -62,17 +30,6 @@
       h1 {
         font-size: 60px;
         padding-top: 80px;
-      }
-    }
-
-    .listForm {
-      height: 700px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-
-      div {
       }
     }
   }

@@ -128,7 +128,25 @@
   font-size: 80px;
   font-family: marshmallow;
 }
-.home .listForm {
+
+@media screen and (max-width: 530px) {
+  .home {
+    width: 530px;
+  }
+  .home .hero h1 {
+    font-size: 60px;
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .home {
+    width: 300px;
+  }
+  .home .hero h1 {
+    font-size: 40px;
+  }
+}
+.listForm {
   height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,36 +160,31 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   background-color: cadetblue;
+  margin: 0 auto;
   margin-bottom: 10px;
 }
-.home .listForm div {
+.listForm .itemDiv {
   width: 20%;
 }
-.home .listForm div h4 {
+.listForm .itemDiv h4 {
+  height: 55px;
   font-family: marshmallow;
   font-size: 20px;
 }
-.home .listForm div input {
+.listForm .itemDiv input {
   height: 20px;
   padding-left: 15px;
   margin-bottom: 15px;
   border-radius: 20px;
 }
-.home .listForm div .createBtn {
+.listForm .itemDiv .createBtn {
   font-family: marshmallow;
   font-weight: bold;
   border-radius: 20px;
 }
 
 @media screen and (max-width: 530px) {
-  .home {
-    width: 530px;
-  }
-  .home .hero h1 {
-    font-size: 60px;
-    padding-top: 80px;
-  }
-  .home .listForm {
+  .listForm {
     height: 700px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -187,13 +200,8 @@
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-}
-@media screen and (max-width: 300px) {
-  .home {
-    width: 300px;
-  }
-  .home .hero h1 {
-    font-size: 40px;
+  .listForm div .createBtn {
+    margin-bottom: 40px;
   }
 }
 footer {

@@ -1,0 +1,49 @@
+.listForm {
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: cadetblue;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+  .itemDiv {
+    width: 20%;
+
+    h4 {
+      height: 55px;
+      font-family: marshmallow;
+      font-size: 20px;
+    }
+
+    input {
+      height: 20px;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      border-radius: 20px;
+    }
+
+    .createBtn {
+      font-family: marshmallow;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .listForm {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    div {
+      .createBtn {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
